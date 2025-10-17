@@ -13,12 +13,12 @@ const ProductViewer = () => {
 
   return (
     <section id='product-viewer'>
-        <h2>Take a closer look.</h2>
+        <h2 className="pl-4 md:pl-6">Take a closer look.</h2>
 
         <div className='controls'>
-            <p className='info'>
-                MacBook pro {scale} in {color}
-            </p>
+            {/* <p className='info'>
+                MacBook Pro | Available in 14" & 16" in Space Gray & Dark
+            </p> */}
             <div className='flex-center gap-5 mt-5'>
                 <div className='color-control'>
                     <div 
